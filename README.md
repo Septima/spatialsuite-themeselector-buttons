@@ -14,7 +14,7 @@ This module adds a new method, called "addActionButton", on the themeselector ja
 
 1.b:  add this to  [cbinfo.modules]:
 ```xml
-    <module name="themeselector-buttons" dir="septima/themeselector-buttons"/>
+    <module name="themeselector-buttons" dir="septima/themeselector-buttons" permissionlevel="public"/>
 ```
 2:    Use the module - Normaly you don't have to do this, but if it dosn't work, try adding the plugin to the profile
 
