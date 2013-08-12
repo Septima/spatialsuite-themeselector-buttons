@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tool type="plugin">
+    <requires>
+        <file type="script" name="[module.themeselector-buttons.js]" />
+        <file type="css"    name="[module.themeselector-buttons.css]" />
+    </requires>
+</tool>

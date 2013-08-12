@@ -1,0 +1,32 @@
+
+.classicActions {
+    margin-right:2px;
+    float: right;
+}
+.actions > div {
+    float: left;
+    margin: 3px;
+}
+
+.classicActions > div {
+	width: 18px;
+	height: 18px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    float: right;
+    margin: 0 2px 0 0;
+}
+.classicActions > div:hover {
+    width: 18px;
+    height: 18px;
+}
+.actions > div.tableview_icon {
+    background-image: url("images/table.png");
+}
+
+.actions > div.metadata {
+    background-image: url(/skins/standard/base_dark/images/buttons/s_info.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+

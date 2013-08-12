@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy>
+
+   <version>0.1</version>  
+
+   <stoponerror>true</stoponerror>
+   
+   <copydir fromdir="[module:themeselector-buttons.dir]/js" todir="[cbinfo.wwwroot.dir]/modules/themeselector-buttons/js" replacetext="false"/>
+   <copydir fromdir="[module:themeselector-buttons.dir]/css" todir="[cbinfo.wwwroot.dir]/modules/themeselector-buttons/css" replacetext="false"/>
+
+   <param name="module.themeselector-buttons.js">/modules/themeselector-buttons/js/themeselector-buttons.js</param>
+   <param name="module.themeselector-buttons.css">/modules/themeselector-buttons/css/themeselector-buttons.css</param>
+
+</deploy>
