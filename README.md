@@ -3,7 +3,9 @@ themeselector-buttons
 
 #Description:
 
-This module adds a new method, called "addActionButton", on the themeselector javascript object
+This module adds a new method, called "addActionButton", on the themeselector javascript object.
+
+##This module is for older versions of Spatial Suite (pre 3.5.0)
 
 
 #Installation

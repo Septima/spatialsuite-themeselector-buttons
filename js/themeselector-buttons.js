@@ -15,7 +15,7 @@ Gui.ThemeSelector.prototype.addActionButton = function(theme,options) {
 	
 }
 
-if (Gui.ThemeSelector.ThemeStore) {
+if (Gui.ThemeSelector.ThemeStore && typeof ThemeAction === 'undefined') {
 
 	Gui.ThemeSelector.ThemeStore.prototype.addActionButton = function(theme,options) {
         var expander = jQuery('#'+theme.name+' .no-expander');
